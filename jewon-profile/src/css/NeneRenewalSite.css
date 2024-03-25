@@ -1,0 +1,536 @@
+@font-face {
+  font-family: 'IAMAPLAYER';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+.nene-renewal-site{
+  background-color: #6F6D6D;
+}
+
+#nene header {
+  width: 100%;
+  height: 126px;
+  background-color: #473D3D;
+}
+
+#nene p,h1 {
+  white-space: pre-line;
+  
+}
+
+#nene pre[class*=language-] {
+  width: 70%;
+ }
+
+
+#nene p {
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.5;
+}
+
+#nene h1, h2, a {
+  font-family: 'IAMAPLAYER';
+}
+
+
+#nene section {
+  background-color: #6F6D6D;
+  margin-bottom: 112px;
+  padding: 0 32px;
+  box-sizing: border-box;
+}
+
+#nene .overview-section,
+#nene .design-section,
+#nene .explain-section,
+#nene .end-section {
+  padding: 0;
+}
+
+#nene a {
+  text-decoration-line: none;
+}
+
+#nene .header-menu-container {
+  height: 100%;
+  /* padding: 0 32px; */
+}
+
+#nene header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 80px;
+}
+
+#nene header li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nene header a {
+
+  color: #F5F5F5;
+  font-size: 20px;
+  
+}
+
+#nene .profile-section {
+  width: 100%;
+}
+
+#nene .profile-container {
+  display: flex;
+  padding-top: 108px;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  gap: 140px;
+  max-width: 1302px;
+  box-sizing: border-box;
+}
+
+#nene .profile-image {
+  height: 429px;
+}
+
+
+
+#nene .my-profile > h1 {
+  line-height: 1.2;
+  font-size: 64px;
+  color: #F5F5F5;
+  padding-bottom: 80px;
+}
+
+
+#nene .my-profile > p {
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: 'IAMAPLAYER';
+  color: #2b2b2b;
+  font-weight: 600;
+}
+
+#nene .copyright {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding-top: 200px;
+ color: #A09696;
+}
+
+#nene .copyright > p {
+  font-size: 12px;
+}
+
+#nene .click-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  transform: translate(85vw, -210px);
+  background-color: #F8BA03;
+  width: 136px;
+  height: 136px;
+  border-radius: 45px;
+  z-index: 1;
+}
+
+#nene .click-button > a {
+  color: #FFFFFF;
+  line-height: 1.2;
+  font-size: 32px;
+  font-family: 'IAMPLAYER';
+  text-align: center;
+}
+
+
+
+
+#nene h2 {
+  font-size: 48px;
+  color: #F5F5F5;
+  width: fit-content;
+}
+
+
+#nene h3 {
+  font-size: 28px;
+  padding: 80px 0;
+  font-weight: bold;
+  color: #F0DA14;
+  line-height: 1.5;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+
+#nene .contents-container {
+  width: 100%;
+  max-width: 1000px;
+}
+
+
+
+#nene .overview-size li p {
+  color: #F5F5F5;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+#nene .color-rect {
+  width: 100px;
+  height: 100px;
+}
+
+#nene .rect1 {
+background-color: #4F4C4C;
+}
+
+#nene .rect2{
+background-color: #B6B3B2;
+}
+
+#nene .rect3{
+  background-color: #DBD8D8;
+}
+
+#nene .rect4{
+  background-color: #B19028;
+}
+
+#nene .rect5{
+  background-color: #F7BB00;
+}
+
+#nene .rect6{
+  background-color: #2b2b2b;
+}
+
+#nene .design-explain-container {
+  margin-top: 80px;
+}
+
+#nene .design-explain-container li {
+  display: flex;
+  align-items: center;
+}
+
+#nene .design-explain-container li p {
+  width: 143px;
+  padding-right: 28px;
+  font-size: 24px;
+}
+
+#nene .color-name {
+  display: flex;
+  gap: 35px;
+  transform: translateX(185px);
+  padding-top: 8px;
+  padding-bottom: 32px;
+  width: fit-content;
+}
+
+#nene .design-section .question-container{
+  padding-top: 48px;
+}
+
+#nene .sticky-section {
+  display: flex;
+  justify-content: center;
+  padding: 0 32px;
+  position: relative;
+  box-sizing: border-box;
+  /* gap: 60px; */
+}
+
+#nene .sticky-img {
+  /* padding-top: 48px; */
+  background-color: #6F6D6D;
+  position: sticky;
+  top: 48px;
+  /* height: fit-content; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#nene .explain-container p, .question-container p {
+  color: #f5f5f5;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+
+
+#nene .explain-container p {
+  color: #FF7A7A;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+#nene .takeaway-section {
+  padding: 0 32px;
+  padding-bottom: 64px;
+  box-sizing: border-box;
+  margin: 0;
+ }
+
+#nene .takeaway-section > .flex-container {
+  padding: 0 220px;
+}
+
+#nene .takeaway-section > .flex-container > p {
+  font-size: 20px;
+  color: #F5F5F5;
+  font-weight: 300;
+}
+
+#nene .code-list p {
+  margin-top: 45px;
+  margin-bottom: 150px;
+}
+
+#nene .sticky-img.all-background-opacity > img.active {
+  opacity: 1;
+}
+#nene .sticky-img.all-background-opacity > img {
+  opacity: 0.5;
+}
+
+
+@media screen and (max-width : 1365px) {
+
+ #nene section {
+  margin-bottom: 50px;
+ }
+
+ #nene header ul {
+  gap: 50px;
+ }
+
+ #nene header a {
+  font-size: 16px;
+ } 
+ #nene .profile-container {
+  display: block;
+  border-left: 3px solid #A7A7A7;
+  padding: 88px 27px;
+  margin-top: 48px;
+ }
+
+ #nene .profile-image {
+  display: none;
+ }
+
+ #nene .copyright {
+  padding-top: 170px;
+ }
+
+ #nene .click-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  transform: translate(80vw, -80px);
+ }
+
+ #nene .click-button > a {
+  font-size: 16px;
+ }
+
+
+ #nene h2 {
+  font-size: 40px
+ };
+
+
+
+ #nene .contents-container {
+  padding: 0;
+ }
+
+ #nene .sticky-img {
+  width: 200px;
+ }
+
+ #nene h3 {
+  padding: 40px 0;
+  font-size: 20px;
+ }
+
+ #nene .overview-size li p {
+  font-size: 16px;
+ }
+
+ #nene .color-rect {
+  width: 75px;
+  height: 75px;
+ }
+
+ #nene .color-name {
+  font-size: 14px;
+  transform: translateX(180px);
+  gap: 16px;
+ }
+
+ #nene .design-explain-container li {
+  box-sizing: border-box;
+ }
+
+ #nene .design-explain-container li:last-of-type {
+  padding-bottom: 0;
+ }
+
+ #nene .sticky-section {
+  padding-top: 48px;
+ }
+
+
+
+ #nene .design-explain-container li p {
+  font-size: 20px;
+ }
+
+ #nene .explain-container p, .question-container p {
+  font-size: 16px;
+ }
+
+ 
+
+ #nene .takeaway-section > .flex-container > p {
+  font-size: 16px;
+ }
+}
+
+ @media screen and (max-width : 799px) {
+  #nene section {
+    padding: 0 16px;
+  }
+
+  #nene .profile-section {
+    margin: 0;
+  }
+
+  #nene .profile-container {
+    padding: 32px 27px;
+  }
+
+  #nene header {
+    height: 60px;
+  }
+
+  #nene header ul {
+    gap: 21px;
+  }
+
+  #nene header a {
+    font-size: 12px;
+  }
+  
+  #nene .my-profile > h1 {
+    font-size: 32px;
+  }
+
+  #nene .my-profile > p {
+    font-size: 14px;
+  }
+
+  #nene .copyright {
+   padding-top: 50px; 
+  }
+
+  #nene .copyright > p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #nene .click-button {
+    transform: translate(70vw);
+    position: relative;
+  }
+
+  
+
+  #nene h2 {
+    font-size: 24px;
+  }
+
+  #nene h3 {
+    font-size: 20px;
+  }
+
+  #nene .overview-size li p {
+    font-size: 16px;
+  }
+
+  #nene .color-name {
+    display: none;
+  }
+
+  #nene .design-explain-container li {
+    padding-bottom: 32px;
+  }
+
+  #nene .design-explain-container li:last-of-type {
+    padding-bottom: 0;
+  }
+
+  #nene .design-explain-container li p {
+    width: 88px;
+    padding-right: 16px;
+    font-size: 16px;
+  }
+
+  #nene .sticky-img {
+    width: 100px;
+  }
+
+  #nene .explain-container p, .question-container p {
+    font-size: 16px;
+  }
+
+  #nene .takeaway-section > .flex-container > p {
+    font-size: 16px;
+  }
+
+  #nene .sticky-img {
+    display: none;
+  }
+
+  #nene .language-javascript {
+    font-size: 12px;
+   }
+
+   #nene .code-list p {
+    margin-bottom: 50px;
+   }
+
+   #nene .code-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #nene .sticky-section,
+   #nene .takeaway-section {
+    padding: 0 16px;
+   }
+ } 
+
