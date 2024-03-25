@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b92bfcd.css",
-    "main.js": "/static/js/main.87fef70c.js",
-    "static/js/453.8391795b.chunk.js": "/static/js/453.8391795b.chunk.js",
-    "static/media/ProfileImg.png": "/static/media/ProfileImg.3850c1d3cb7ce29129c0.png",
-    "static/media/myImg.jpg": "/static/media/myImg.ca24fc45e7ec8a3a7509.jpg",
-    "static/media/neneWeb.png": "/static/media/neneWeb.6a7acff039687d6e3479.png",
-    "static/media/renewal-1.png": "/static/media/renewal-1.8cda7ce5f0e1fb1ac6fb.png",
-    "static/media/renewal-3.png": "/static/media/renewal-3.74e707ee7804bdc1d866.png",
-    "static/media/renewal-2.png": "/static/media/renewal-2.e9712065d43e84b2524f.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.0b92bfcd.css.map": "/static/css/main.0b92bfcd.css.map",
-    "main.87fef70c.js.map": "/static/js/main.87fef70c.js.map",
-    "453.8391795b.chunk.js.map": "/static/js/453.8391795b.chunk.js.map"
+    "main.css": "/development-profile/static/css/main.db47d3b8.css",
+    "main.js": "/development-profile/static/js/main.e7d78285.js",
+    "static/js/453.8391795b.chunk.js": "/development-profile/static/js/453.8391795b.chunk.js",
+    "static/media/ProfileImg.png": "/development-profile/static/media/ProfileImg.3850c1d3cb7ce29129c0.png",
+    "static/media/myImg.jpg": "/development-profile/static/media/myImg.ca24fc45e7ec8a3a7509.jpg",
+    "static/media/neneWeb.png": "/development-profile/static/media/neneWeb.6a7acff039687d6e3479.png",
+    "static/media/renewal-1.png": "/development-profile/static/media/renewal-1.8cda7ce5f0e1fb1ac6fb.png",
+    "static/media/renewal-3.png": "/development-profile/static/media/renewal-3.74e707ee7804bdc1d866.png",
+    "static/media/renewal-2.png": "/development-profile/static/media/renewal-2.e9712065d43e84b2524f.png",
+    "static/media/slick.svg": "/development-profile/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/development-profile/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/development-profile/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/development-profile/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/development-profile/index.html",
+    "main.db47d3b8.css.map": "/development-profile/static/css/main.db47d3b8.css.map",
+    "main.e7d78285.js.map": "/development-profile/static/js/main.e7d78285.js.map",
+    "453.8391795b.chunk.js.map": "/development-profile/static/js/453.8391795b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b92bfcd.css",
-    "static/js/main.87fef70c.js"
+    "static/css/main.db47d3b8.css",
+    "static/js/main.e7d78285.js"
   ]
 }
