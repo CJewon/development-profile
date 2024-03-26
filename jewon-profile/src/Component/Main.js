@@ -181,7 +181,7 @@ export default function Main() {
           htmlBarRef.current.childNodes[0].style.strokeDashoffset = 'calc(var(--bar-linepx) - var(--bar-linepx) * 0.91)';
           cssBarRef.current.childNodes[0].style.strokeDashoffset = 'calc(var(--bar-linepx) - var(--bar-linepx) * 0.87)';
           javascriptBarRef.current.childNodes[0].style.strokeDashoffset = 'calc(var(--bar-linepx) - var(--bar-linepx) * 0.84)';
-          reactBarRef.current.childNodes[0].style.strokeDashoffset = 'calc(var(--bar-linepx) - var(--bar-linepx) * 0.50)';
+          reactBarRef.current.childNodes[0].style.strokeDashoffset = 'calc(var(--bar-linepx) - var(--bar-linepx) * 0.70)';
         }
         else {
           htmlBarRef.current.childNodes[0].style.strokeDashoffset = '';
@@ -226,7 +226,7 @@ export default function Main() {
                 <span>WELCOME TO MY</span>
                 <span>PORTFOLIO</span>
               </h1>
-              <p>안녕하세요! 끊임없이 도전하고,<br className='mobile-br'></br>나아가 프론트엔드 개발자가 되고 싶은<br className='mobile-br'></br> 신입 웹 퍼블리셔 최제원입니다.</p>
+              <p>안녕하세요! 끊임없이 도전하고,<br className='mobile-br'></br> 다양한 경험을 통해 발전하고 싶은<br className='mobile-br'></br> 신입 프론트엔드 개발자 최제원입니다.</p>
             </div>
           </div>
           <div className="copyright-container">
@@ -242,12 +242,11 @@ export default function Main() {
                 <img src={myImg} alt="내이미지" />
               </div>
               <div className="introduce-text-container">
-                <h3>안녕하세요!<br></br>신입 웹 퍼블리셔 <span>최제원</span>입니다.</h3>
+                <h3>안녕하세요!<br></br>신입 프론트엔드 개발자 <span>최제원</span>입니다.</h3>
                 <div className="introduce-text">
-                  <p>웹 개발에 관심이 많아 열심히 공부중인 신입 웹퍼블리셔입니다.</p>
-                  <p>새로운 것을 만들고 구현할때마다 벅참과 성취감에 취해 즐겁게 공부하고 있습니다.  HTML, CSS, Javascript가 가능하며, 
-                      현재는 Javascript 라이브러리인 React를 공부하여 다양한
-                      프레임워크 환경에서 작업해 나아가는것을 목표로 기초를 다지고 있습니다.
+                  <p>웹 개발에 관심이 많아 열심히 공부중인 신입 프론트엔드 개발자입니다.</p>
+                  <p>새로운 것을 만들고 구현할때마다 벅참과 성취감에 취해 즐겁게 공부하고 있습니다.  HTML, CSS, Javascript를 기본으로, 
+                      프레임워크로 React를 사용가능합니다. 또한 디자인툴로 figma 사용이 가능합니다.
                   </p>
                   <p>저의 개발자로써의 목표는 많은 경험과 지식, 그리고 <span>소통</span>으로
                       끊임없이 발전해 나아가는 <span>프론트엔드 개발자</span>가 되는것입니다. 
@@ -303,7 +302,7 @@ export default function Main() {
                             </svg>
                             <img src={react} alt="react" className='icon-img' />
                           </div>
-                          <p className='percent'>50%</p>
+                          <p className='percent'>70%</p>
                         </li>
                       </ul>
                     </div>
