@@ -1,5 +1,6 @@
 import React from 'react'
 import neneWeb from '../img/neneWeb.png'
+import profile from '../img/profile.png'
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'
@@ -50,23 +51,23 @@ export default function SlidePage() {
           </div>
       </div>
       <div className="slide-list">
-          <img src={neneWeb} alt="네네홈페이지" />
+          <img src={profile} alt="포트폴리오사이트" />
           <div className='website-explain-text'>
-          <h4>네네치킨</h4>
-          <p>네네치킨 메인 홈페이지 리뉴얼</p>
+          <h4>개인 포트폴리오</h4>
+          <p>개인 프로필 및 작업 정리공간</p>
           <div className="summary-rect-container">
             <div className="summary-rect-text">
               <div className="summary-rect">
-                <p>#디자인</p>
+                <p>#React</p>
               </div>
               <div className="summary-rect">
                 <p>#Javascript</p>
               </div>
               <div className="summary-rect">
-                <p>#리뉴얼페이지</p>
+                <p>#포트폴리오</p>
               </div>
               <div className="summary-rect">
-                <p>#PC전용</p>
+                <p>#반응형웹</p>
               </div>
             </div>
           </div>
